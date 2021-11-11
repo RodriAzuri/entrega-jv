@@ -3,7 +3,10 @@ header {
     background-image: url(/contenido/img/header.jpg);
     background-size: cover;
     .navbar {
-        background-color: transparent !important;
+        background-color: rgba(96, 177, 202, 0.562) !important;
+        .dropdown-menu {
+            background-color: rgba(96, 177, 202, 0.562) !important;
+        }
     }
     h1 {
         text-align: center;
@@ -15,6 +18,26 @@ header {
     }
 }
 
+
+main {
+    .carouselRock {
+        padding: 0px 20px;
+        h2 {
+            text-align: center;
+            padding: 50px;
+        }
+        p {
+            text-align: center;
+            padding: 50px;
+        }
+       
+    }
+}
+
+
+
+
+
 @media only screen and (min-width: 700px) {
     header {
         height: 400px;
@@ -23,6 +46,11 @@ header {
             font-size: 80px;
         }
     }
+    main {  
+        .carouselRock {
+            padding: 0px 80px;
+        }
+    }    
 }
 
 @media only screen and (min-width: 800px) {
@@ -43,6 +71,7 @@ header {
             font-size: 100px;
         }
     }
+   
 }
 
 @media only screen and (min-width:1224px) {
@@ -53,4 +82,24 @@ header {
             font-size: 120px;
         }
     }
+    main {  
+        .carouselRock {
+            padding: 0px 130px;
+        }
+    }    
+}
+@media only screen and (min-width: 1450px) {
+    header {
+        height: 750px;
+        h1 {
+            padding-top: 250px;  
+            font-size: 120px;
+        }
+    }
+    main {  
+        .carouselRock {
+            padding: 0px 280px;
+            
+        }
+    }    
 }
