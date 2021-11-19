@@ -48,8 +48,21 @@ function bandaToString(b) {
     return `El nombre de la banda seleccionada es: ${b.nombre}\nSe inicio en el año: ${b.año}.\nEsta banda es oriunda del país: ${b.pais}\nSu ultimo disco es: ${b.ultimoDisco}`;
 }
 
+let titleSecondary = document.getElementById("titulo");
 
+let h2 = document.createElement("h2")
 
+h2.innerHTML = "Orígenes del Rap";
+
+titleSecondary.appendChild(h2);
+
+let insertarListaBandas = document.getElementById("titulo")
+
+listaBandas.forEach(banda => {
+    let li = document.createElement("li")
+    li.innerHTML = banda.nombre;
+    insertarListaBandas.appendChild(li);
+});
 
 
 
