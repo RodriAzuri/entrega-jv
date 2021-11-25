@@ -59,11 +59,32 @@ titleSecondary.appendChild(h2);
 let insertarListaBandas = document.getElementById("titulo")
 
 listaBandas.forEach(banda => {
-    let li = document.createElement("li")
+    let li = document.createElement("li");
     li.innerHTML = banda.nombre;
     insertarListaBandas.appendChild(li);
+
+    let button = document.createElement("button");
+    button.innerHTML = "Información";
+    insertarListaBandas.appendChild(button);
+    button.onclick = () => {
+        alert("Para adquirir información de la banda refresque la página");
+    }
 });
 
+
+
+
+let titleTerciario = document.getElementById("titulo")
+
+let h3 = document.createElement("h3")
+
+h3.innerHTML = "Orígenes del Reggae";
+
+titleTerciario.appendChild(h3);
+
+h2.onclick = () => {
+ 	alert("Este estilo, enmarcado en la cultura del hip hop, surgió a finales de la década de 1970 en los barrios más marginales de Nueva York como una derivación del funk, y su aparición significó una verdadera revelación en el mundo de la música.");
+}
 
 
 
