@@ -27,6 +27,48 @@ main #titulo {
   text-align: center;
   padding-bottom: 50px; }
 
+#body {
+  background-image: url(../contenido/img/fondo-cro.jpg) !important;
+  background-color: #cebbbb;
+  background-blend-mode: soft-light;
+  background-size: contain; }
+  #body main {
+    padding-top: 15px; }
+    #body main #principal {
+      padding-top: 15px; }
+      #body main #principal button {
+        width: 150px;
+        margin: 10px; }
+      #body main #principal h3 {
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center; }
+      #body main #principal h4 {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center; }
+      #body main #principal img {
+        width: 500px;
+        height: 350px;
+        border: black 1px solid; }
+      #body main #principal p {
+        text-align: center;
+        padding: 0px 20px; }
+  #body table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px; }
+    #body table tr {
+      border: black 1px solid; }
+    #body table td {
+      border: black 1px solid;
+      padding: 15px;
+      font-weight: 900;
+      width: 200px;
+      text-align: center; }
+
 @media only screen and (min-width: 700px) {
   header {
     height: 400px; }
