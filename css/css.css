@@ -18,7 +18,9 @@ main .carouselRock {
   padding: 0px 20px; }
   main .carouselRock h2 {
     text-align: center;
-    padding: 50px; }
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif; }
   main .carouselRock p {
     text-align: center;
     padding: 50px; }
@@ -42,7 +44,8 @@ main #titulo {
       #body main #principal h3 {
         font-size: 50px;
         font-weight: 900;
-        text-align: center; }
+        text-align: center;
+        font-family: 'Roboto', sans-serif; }
       #body main #principal h4 {
         font-size: 30px;
         font-weight: 500;
@@ -68,6 +71,27 @@ main #titulo {
       font-weight: 900;
       width: 200px;
       text-align: center; }
+
+body main h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+body main #lisVin #elemVin {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+  body main #lisVin #elemVin img {
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 100px; }
 
 @media only screen and (min-width: 700px) {
   header {
