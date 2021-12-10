@@ -21,4 +21,5 @@ for (const disco of discos) {
     $(`#btn${disco.id}`).on('click', function () {
         console.log(`Compraste ${disco.nombre}`);
     });
+    
 }
